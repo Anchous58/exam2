@@ -1,0 +1,11 @@
+integers=[1,32,45,56,14,346,11,18,445,69,70]
+for i in integers:
+    if i % 2 == 1:
+        print(i)
+        if i == 69:
+            print('В списке есть число 69')
+            break
+        elif 420 in integers:
+            if i > 420:
+                print('В списке есть число 420')
+                break
